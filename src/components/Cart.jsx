@@ -11,6 +11,7 @@ function Cart() {
       {cart.map((cartItem)=>{
         <CartItem 
         key={cartItem.id} 
+        {...cartItem}
         />
       })}
     </>

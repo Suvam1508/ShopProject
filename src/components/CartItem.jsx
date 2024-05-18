@@ -1,11 +1,11 @@
 import React from 'react'
 
-function CartItem() {
+function CartItem({id,title,price,img,quantity}) {
 
     // console.log(price,title)
   return (
     <div>
-      <h1>Hi</h1>
+      <p>{title}</p>
     </div>
   )
 }
